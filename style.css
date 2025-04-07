@@ -2,6 +2,7 @@ body {
     background-color: black;
 }
 
+
 #titulo{
     font-size: 50px;
     text-align: center;
@@ -14,6 +15,7 @@ img{
     
 }
 p {
+  font-family: -apple-system,sans-serif;
 }
 
 .container {
@@ -36,7 +38,7 @@ p {
     gap: 20px;
 }
 
-button {
+button, a {
   appearance: none;
   background-color: #000000;
   border-style: none;
@@ -59,17 +61,17 @@ button {
   touch-action: manipulation;
 }
 
-button:hover {
+button:hover, a:hover {
   background-color: #000000;
   transform: scale(1.125);
 }
 
-button:active {
+button:active, a:active {
   transform: scale(1.025);
 }
 
 @media (min-width: 768px) {
-  button {
+  button, a{
     font-size: 1.5rem;
     padding: .75rem 2rem;
   }
